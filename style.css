@@ -65,6 +65,10 @@ button:hover {
     font-size: 15px;
 }
 
+.on-top {
+    display: block;
+}
+
 .left-container {
     height: 100vh;
     display: grid;
@@ -89,7 +93,7 @@ button:hover {
 }
 
 .form-container {
-    width: 100%;
+    width: 60vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -106,4 +110,48 @@ button:hover {
     font-size: 50px;
 }
 
+@media (max-width: 540px) {
 
+    body {
+        display: block;
+        text-align: center;
+    }
+
+    .left-container {
+        display: block;
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .left-quote {
+        margin-top: 100px;
+    }
+
+    .form-container {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        gap: 25px;
+        
+    }
+
+    .form-header {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+
+    input {
+        width: 50%;
+    }
+}
