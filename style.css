@@ -20,6 +20,14 @@ img {
     width: calc(90%);
 }
 
+em {
+    color: var(--orange);
+}
+
+em:hover {
+    cursor: pointer;
+}
+
 input {
     margin-top: 10px;
     width: 80%;
@@ -29,6 +37,7 @@ input {
     appearance: none;
     background-color: var(--greyish);
     border-bottom: 1px solid #ececec;
+    color: #ececec;
 }
 
 input:focus {
@@ -36,6 +45,20 @@ input:focus {
     border-bottom: 1px solid var(--orange);
     transition: .2s ease-in-out;
     color: white;
+}
+
+button {
+    padding: 10px 50px;
+    background-color: var(--orange);
+    border: none;
+    color: #ececec;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .tm {
@@ -82,4 +105,5 @@ input:focus {
     margin-bottom: 30px;
     font-size: 50px;
 }
+
 
