@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;;
 }
 
 :root {
@@ -20,6 +23,19 @@ img {
 input {
     margin-top: 10px;
     width: 80%;
+    padding: 8px;
+    height: 30px;
+    border: none;
+    appearance: none;
+    background-color: var(--greyish);
+    border-bottom: 1px solid #ececec;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 1px solid var(--orange);
+    transition: .2s ease-in-out;
+    color: white;
 }
 
 .tm {
@@ -54,10 +70,10 @@ input {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 45px;
+    gap: 30px;
     padding: 50px;
     background-color: var(--greyish);
-    color: white;
+    color: rgb(216, 216, 216);
 }
 
 .form-header {
