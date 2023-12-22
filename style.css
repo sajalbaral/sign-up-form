@@ -42,8 +42,8 @@ input {
 
 input:focus {
     outline: none;
-    border-bottom: 1px solid var(--orange);
-    transition: .2s ease-in-out;
+    border: 1px solid var(--orange);
+    transition: all .5s ease-in;
     color: white;
 }
 
