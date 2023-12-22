@@ -4,44 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet"> 
     <title>Sign Up Form</title>
 </head>
 <body>
     <div class="left-container">
-        <h1>sazal <sup>TM</sup></h1>
-        <img src="bg-img.jpg" alt="">
-        <p>Sign up today to sign up!</p>
+        <h1 class="company">sazal <sup class="tm">TM</sup></h1>
+        <img src="bg-img.png" alt="">
+        <p class="left-quote">Sign up today to sign up!</p>
     </div>
     <form action="" method="">
         <div class="form-container">
-            <h1>Get started</h1>
+            <h1 class="form-header">Get started</h1>
             <div>
-                <label for="first-name">FIRST NAME</label>
+                <label for="first-name" class="on-top">FIRST NAME</label>
                 <input type="text" name="first-name" id="first-name" required/>
             </div>
             <div>
-                <label for="last-name">LAST NAME</label>
+                <label for="last-name" class="on-top">LAST NAME</label>
                 <input type="text" name="last-name" id="last-name" required/>
             </div>
             <div>
-                <label for="email">E-MAIL:</label>
+                <label for="email" class="on-top">E-MAIL:</label>
                 <input type="email" name="email" id="email" required/>
             </div>
             <div>
-                <label for="phone">PHONE NUMBER</label>
+                <label for="phone" class="on-top">PHONE NUMBER</label>
                 <input type="tel" name="phone" id="phone" required/>
             </div>
             <div>
-                <label for="password">PASSWORD</label>
+                <label for="password" class="on-top">PASSWORD</label>
                 <input type="password" name="password" id="password" minlength="8" required/>
             </div>
             <div>
-                <label for="password-cnfrm">CONFIRM PASSWORD</label>
+                <label for="password-cnfrm" class="on-top">CONFIRM PASSWORD</label>
                 <input type="password" name="password-cnfrm" id="password-cnfrm" minlength="8" required/>
             </div>
-            <div class="btn">
+            <div>
                 <button type="submit">Create Account</button>
-                <p class="btm-txt">Already have an account? Log in</p>
+                <p class="btm-txt">Already have an account? <em>Log in</em></p>
             </div>
         </div>
     </form>
